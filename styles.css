@@ -1,0 +1,43 @@
+/* Dafonts Fonts */
+
+@font-face {
+  font-family: "Lets Play";
+  src: url("fonts/lets-play.ttf") format("truetype");
+}
+
+/* Main Page CSS */
+
+body {
+  background-image: url("image/background.jpg");
+}
+
+h1 {
+  color: lightgray;
+  font-family: "Lets Play";
+  font-size: 65px;
+  text-align: center;
+}
+
+h2,
+h3,
+p,
+li {
+  font-family: 'Nunito', sans-serif;
+}
+
+img {
+  border: 5px solid black;
+  border-radius: 20%;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  width: 25%;
+}
+
+/* Headings Styling */
+
+.underline {
+  line-height: 2em;
+  text-decoration: underline;
+
+}
