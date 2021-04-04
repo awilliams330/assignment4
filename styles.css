@@ -105,3 +105,22 @@ li {
   background: blue;
   width: 100%;
 }
+
+.cloud {
+  position: absolute;
+  width: 300px;
+  top: 0;
+  animation: float 10s linear infinite;
+}
+
+
+
+
+@keyframes float {
+  from {
+    left: -400px;
+  }
+  to {
+    left: 1500px;
+  }
+}
