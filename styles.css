@@ -6,11 +6,13 @@
 }
 
 /* Main Page CSS */
+
+
 * {
-  margin: 0;
-  padding: 0;
   border: 0;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -19,13 +21,14 @@ body {
 
 header {
   position: fixed;
-  width: 100%;
   top: 0;
+  width: 100%;
 }
 
 section {
   margin-top: 80px;
 }
+
 h1 {
   color: lightgray;
   font-family: "Lets Play";
@@ -44,9 +47,16 @@ li {
   list-style-type: none;
 }
 
+.underline {
+  line-height: 2em;
+  text-decoration: underline;
+}
+
+/* Images CSS */
+
 .sub-image {
-  width: 10%;
   float: left;
+  width: 10%;
 }
 
 .main-image {
@@ -58,32 +68,29 @@ li {
   width: 25%;
 }
 
-.underline {
-  line-height: 2em;
-  text-decoration: underline;
-}
+/* Navigation CSS */
+
 .menu {
   max-width: 90%;
   margin: 0 auto;
 }
 
 .menu > ul > li {
-  display: inline-block;
   background: white;
-  width: 33%;
+  display: inline-block;
   margin-bottom: 2px;
   position: relative;
   vertical-align: top;
+  width: 33%;
 }
 
 .menu ul li a {
-  display: inline-block;
   background: darkred;
+  color: white;
   display: block;
   padding: 10px;
-  text-decoration: none;
   text-align: center;
-  color: white;
+  text-decoration: none;
   transition: .3s;
 }
 
@@ -91,7 +98,6 @@ li {
   background: black;
   color: white;
   transition: .3s;
-
 }
 
 .sub-menu {
@@ -99,18 +105,21 @@ li {
 }
 
 .menu-item:hover .sub-menu {
+  background: blue;
   display: block;
   position: absolute;
   top: 40px;
-  background: blue;
   width: 100%;
 }
 
+
+/* Animation CSS */
+
 .cloud {
-  position: absolute;
-  width: 300px;
-  top: 0;
   animation: float 10s linear infinite;
+  position: absolute;
+  top: 0;
+  width: 300px;
 }
 
 
